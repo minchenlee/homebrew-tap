@@ -16,6 +16,7 @@ cask "c9watch" do
   end
 
   auto_updates true
+  depends_on :macos
 
   app "c9watch.app"
 end
