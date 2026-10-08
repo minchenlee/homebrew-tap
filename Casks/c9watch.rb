@@ -7,7 +7,7 @@ cask "c9watch" do
 
   url "https://github.com/minchenlee/c9watch/releases/download/v#{version}/c9watch_v#{version}_#{arch}.dmg"
   name "c9watch"
-  desc "Dashboard for Claude Code and Codex sessions running on your machine"
+  desc "Monitor Claude Code, Codex, Cursor Agent and Pi sessions on your machine"
   homepage "https://c9watch.mclee.dev/"
 
   livecheck do
