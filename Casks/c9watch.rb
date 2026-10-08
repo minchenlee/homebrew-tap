@@ -8,7 +8,7 @@ cask "c9watch" do
   url "https://github.com/minchenlee/c9watch/releases/download/v#{version}/c9watch_v#{version}_#{arch}.dmg"
   name "c9watch"
   desc "Dashboard for Claude Code and Codex sessions running on your machine"
-  homepage "https://c9watch.mclee.dev"
+  homepage "https://c9watch.mclee.dev/"
 
   livecheck do
     url :url
@@ -16,7 +16,6 @@ cask "c9watch" do
   end
 
   auto_updates true
-  depends_on macos: ">= :catalina"
 
   app "c9watch.app"
 end
