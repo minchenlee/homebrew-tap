@@ -1,9 +1,9 @@
 cask "c9watch" do
   arch arm: "aarch64", intel: "x86_64"
 
-  version "0.11.0"
-  sha256 arm:   "8860f6366842eb08e05ff01c2962c15fdca0d217f27cc8352f422a0c5cee31ee",
-         intel: "5e4c3c1b8b1b2d200d042ede7afce0467679eacf26541830ed7c4709e43f65bd"
+  version "0.11.1"
+  sha256 arm:   "9a028887597f3113959ca9f458e5d1b3a2fb434789d32c86850e1a494ef589dd",
+         intel: "af54129b38eca03929e5bdd9343eb4d9960dbb383cf44f3ffa640edc80de68f7"
 
   url "https://github.com/minchenlee/c9watch/releases/download/v#{version}/c9watch_v#{version}_#{arch}.dmg"
   name "c9watch"
